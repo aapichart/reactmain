@@ -4,13 +4,25 @@
 
 .App-Contents {
   background-color: #282c34;
-  min-height: 88vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Footer {
+  background-color: #282c34;
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 1vmin);
+  color: white;
+  padding: 10px;
 }
 
 .Navbar {

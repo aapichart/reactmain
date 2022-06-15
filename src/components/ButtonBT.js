@@ -2,7 +2,7 @@ import React from "react";
 import './ButtonBT.css';
 import {Link} from "react-router-dom";
 
-export const ButtonBT = ({children, type, onClick, buttonStyle, buttonSize}) => {
+export const ButtonBT = ({children, linktoutl, type, onClick, buttonStyle, buttonSize}) => {
     const STYLES = ['btn--primary','btn--outline','btn--test'];
     const SIZES = ['btn--medium','btn--large'];
 
@@ -11,7 +11,7 @@ export const ButtonBT = ({children, type, onClick, buttonStyle, buttonSize}) => 
 
     return(
         <>
-            <Link to={'/Signup'} className='btn--outline'> 
+            <Link to={linktoutl} className='btn--outline'> 
                 <button
                     className={"btn ${checkButtonStyle} ${checkButtonSize}"} 
                     onClick={onClick}
